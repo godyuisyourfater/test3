@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		//typeof:
+		var age = 18;
+		document.write(typeof age)		//"number"
+		var myname = 'cuijn'
+		document.write(typeof myname)	//"string"
+		var num;
+		document.write(typeof num)		//"undefined"
+		var person = null;
+		document.write(typeof person)	//"object"
+
+		person = {};
+		document.write(typeof person)	//"object"
+
+		var isRich = true;
+		document.write(typeof isRich)	//"boolean"
+
+		function sum(n1,n2){return n1 + n2}
+		document.write(typeof sum)		//"function"
+	</script>
+</body>
+</html>
